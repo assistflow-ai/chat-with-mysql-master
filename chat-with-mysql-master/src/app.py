@@ -21,7 +21,7 @@ if not api_key:
 # -- Initialize the OpenAI LLM (ChatOpenAI) --
 llm = ChatOpenAI(
     openai_api_key=api_key,
-    model="gpt-3.5-turbo",  # or "gpt-4"
+    model="gpt-4",  # or "gpt-4"
     temperature=0
 )
 
