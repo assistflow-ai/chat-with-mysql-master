@@ -36,6 +36,7 @@ st.title("Assistflow.ai Chat with MySQL")
 
 # -- Veritabanına bağlanma --
 try:
+    conn = st.connection('mysql', type='sql')
     connection = mysql.connector.Connect(
         host=db_host,
         user=db_user,
